@@ -1,0 +1,40 @@
+
+$font-stack: Helvetica, sans-serif;
+$green: #10e855;
+$white: #a3b8aa;
+$red: #e81099;
+
+
+
+html {
+box-sizing: border-box;
+background-image: linear-gradient(to right, $green 30%, $white 30% 70%, $red 70%) !important;
+
+
+background-blend-mode: difference;
+animation: b .2s infinite alternate;
+}
+
+body {
+}
+
+
+#middle-box {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 30%;
+width: 20rem;
+box-shadow: 0 1rem 3rem rgba(0,0, 0, .8); 
+border-radius: 25% 10%;
+background-color: #ffd769;
+}
+
+#p-text {
+
+text-align: center;
+font-family: Verdana;
+padding-top: 3rem;
+}
+

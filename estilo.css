@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #10e855 30%, #a3b8aa 30% 70%, #e81099 70%) !important;
+  background-blend-mode: difference;
+  animation: b 0.2s infinite alternate;
+}
+
+#middle-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  width: 20rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.8);
+  border-radius: 25% 10%;
+  background-color: #ffd769;
+}
+
+#p-text {
+  text-align: center;
+  font-family: Verdana;
+  padding-top: 3rem;
+}
+
+/*# sourceMappingURL=estilo.css.map */
